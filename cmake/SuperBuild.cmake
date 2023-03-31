@@ -33,9 +33,9 @@ if(UAGENT_P2P_PROFILE)
     if(NOT microxrcedds_client_FOUND)
         ExternalProject_Add(microxrcedds_client
             GIT_REPOSITORY
-                https://github.com/eProsima/Micro-XRCE-DDS-Client.git
+                https://github.com/WshgL/Micro-XRCE-DDS-Client.git
             GIT_TAG
-                ${_microxrcedds_client_tag}
+                9d01d06c6fbbf5aa350279d8db50e68c3612f976
             PREFIX
                 ${PROJECT_BINARY_DIR}/microxrcedds_client
             INSTALL_DIR
